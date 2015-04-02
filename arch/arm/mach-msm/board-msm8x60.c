@@ -2082,7 +2082,7 @@ static struct lsm303dlh_mag_platform_data lsm303dlh_mag_pdata = {
 	.poll_interval = 100,
 	.min_interval = LSM303DLH_MAG_MIN_POLL_PERIOD_MS,
 	.h_range = LSM303DLH_MAG_H_8_1G,
-//#ifdef CONFIG_MACH_TENDERLOIN
+#ifdef CONFIG_MACH_TENDERLOIN
 //	.axis_map_x = 1,
 //	.axis_map_y = 0,
 //	.axis_map_z = 2,
